@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.42b4045e.css",
-    "main.js": "/static/js/main.a098366f.js",
-    "static/media/kashiwasato.woff2": "/static/media/kashiwasato.c4eaf35158a7d9b8cb84.woff2",
-    "static/media/search.svg": "/static/media/search.e19bb16626fec9cfa02f.svg",
-    "static/media/close.svg": "/static/media/close.d23283f41b90ede9e281.svg",
-    "static/media/menu_button_mobile.svg": "/static/media/menu_button_mobile.6ace2eca29dd4f775655.svg",
-    "index.html": "/index.html",
-    "static/media/close_15.svg": "/static/media/close_15.2bc8167f5b9a8bdbece4.svg",
-    "main.42b4045e.css.map": "/static/css/main.42b4045e.css.map",
-    "main.a098366f.js.map": "/static/js/main.a098366f.js.map"
+    "main.css": "/hemingxuann/kashiwa-sato/static/css/main.d9c45eb1.css",
+    "main.js": "/hemingxuann/kashiwa-sato/static/js/main.a098366f.js",
+    "static/media/kashiwasato.woff2": "/hemingxuann/kashiwa-sato/static/media/kashiwasato.c4eaf35158a7d9b8cb84.woff2",
+    "static/media/search.svg": "/hemingxuann/kashiwa-sato/static/media/search.e19bb16626fec9cfa02f.svg",
+    "index.html": "/hemingxuann/kashiwa-sato/index.html",
+    "static/media/close.svg": "/hemingxuann/kashiwa-sato/static/media/close.d23283f41b90ede9e281.svg",
+    "static/media/menu_button_mobile.svg": "/hemingxuann/kashiwa-sato/static/media/menu_button_mobile.6ace2eca29dd4f775655.svg",
+    "static/media/close_15.svg": "/hemingxuann/kashiwa-sato/static/media/close_15.2bc8167f5b9a8bdbece4.svg",
+    "main.d9c45eb1.css.map": "/hemingxuann/kashiwa-sato/static/css/main.d9c45eb1.css.map",
+    "main.a098366f.js.map": "/hemingxuann/kashiwa-sato/static/js/main.a098366f.js.map"
   },
   "entrypoints": [
-    "static/css/main.42b4045e.css",
+    "static/css/main.d9c45eb1.css",
     "static/js/main.a098366f.js"
   ]
 }

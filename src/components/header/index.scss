@@ -1,0 +1,115 @@
+.header-box {
+    margin: 70px 0;
+    padding-right: 60px;
+    @media (max-width: 768px) {
+        padding-right: 30px;
+    }
+    .border-effect {
+        width: 34px;
+        height: 10px;
+        background-color: #000;
+    }
+    .line {
+        margin: 0 9px;
+        width: 1px;
+        background-color: #999;
+        height: 12px;
+    }
+    .search {
+        width: 300px;
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        z-index: 0;
+        input {
+            width: 20%;
+            height: 30px;
+            border: 1px solid #ccc;
+            opacity: 0;
+            transition: 0.3s;
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-color: #fff;
+            outline: none;
+            ::placeholder {
+                color: #999;
+                line-height: 20px;
+            }
+            :focus-visible {
+                border: 1px solid #ccc;
+            }
+        }
+        .button {
+            position: absolute;
+            right: 0;
+            top: 2px;
+            box-sizing: border-box;
+            width: 30px;
+            height: 30px;
+            background-image: url(../../assets/images/search.svg);
+            background-size: 12px 12px;
+            background-position: 8px 8px;
+            background-repeat: no-repeat;
+        }
+    }
+    .menu-button {
+        .open-menu {
+            width: 27px;
+            height: 25px;
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: 27px 50px;
+            background-image: url(../../assets/images/menu_button_mobile.svg);
+            cursor: pointer;
+            &:hover {
+                background-position: 0 -25px;
+            }
+        }
+        .close-menu {
+            width: 27px;
+            height: 27px;
+            margin-top: -1px;
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-size: 27px 54px;
+            background-image: url(../../assets/images/close.svg);
+            cursor: pointer;
+            &:hover {
+                background-position: 0 -27px;
+            }
+        }
+    }
+    .side-menu {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 150px;
+        bottom: 0;
+        background-color: #fff;
+        padding: 0 25px;
+        p {
+            font-size: 16px;
+            margin-bottom: 22px;
+        }
+        input {
+            border-radius: 0;
+        }
+        input::placeholder {
+            color: #ccc;
+        }
+        .close-input {
+            display: inline-block;
+            box-sizing: border-box;
+            width: 30px;
+            height: 30px;
+            background-image: url(../../assets/images/close_15.svg);
+            background-size: 12px 12px;
+            background-position: 8px 8px;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 181px;
+            top: 3px;
+        }
+    }
+}

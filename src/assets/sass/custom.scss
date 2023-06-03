@@ -1,0 +1,89 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 0.25,
+    2: $spacer * 0.5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
+    6: $spacer * 4,
+    7: $spacer * 5,
+    8: $spacer * 6,
+    9: $spacer * 8
+);
+
+$font-size-base: 1rem;
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+$h7-font-size: $font-size-base * 0.75;
+$font-sizes: (
+    1: $h1-font-size,
+    2: $h2-font-size,
+    3: $h3-font-size,
+    4: $h4-font-size,
+    5: $h5-font-size,
+    6: $h6-font-size,
+    7: $h7-font-size,
+    8: 12px
+);
+
+$display-font-sizes: (
+    1: 8rem,
+    2: 7rem,
+    3: 6rem,
+    4: 5rem,
+    5: 4rem,
+    6: 3rem
+);
+$display-font-weight: 500;
+// Include any default variable overrides here (though functions won't be available)
+
+// Then add additional custom code here
+// flex-column
+// justify-content-start justify-content-end justify-content-center justify-content-between justify-content-around justify-content-evenly
+// align-items-start align-items-end align-items-center align-items-stretch
+// align-self-start align-self-end align-self-center align-self-stretch
+// flex-fill flex-wrap me-auto ms-auto
+// align-content-end align-content-center align-content-between align-content-around align-content-stretch
+// text-truncate vr lh-1 lh-sm lh-base lh-lg
+// w-25 w-50 mw-100 min-vw-100 min-vh-100 vw-100 vh-100
+// z-n1 z-0 z-3 visually-hidden
+// position-absolute top-50 start-50 translate-middle
+// 自定义Class类名库
+.d-flex-center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.d-flex-between-center {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.d-flex-align-center {
+    display: flex !important;
+    align-items: center !important;
+}
+.overflow-hidden {
+    overflow: hidden !important;
+    white-space: nowrap;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.text-999 {
+    color: #999;
+}
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@import 'bootstrap/scss/bootstrap';
+@import './style.scss';

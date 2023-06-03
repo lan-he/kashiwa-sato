@@ -1,0 +1,10 @@
+footer {
+    margin: 80px 0 40px 80px;
+    @media (max-width: 768px) {
+        margin: 120px 0 46px 25px;
+        div {
+            font-size: 10px;
+            color: #ccc;
+        }
+    }
+}
